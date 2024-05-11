@@ -1,45 +1,52 @@
 .wrapper {
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .inner-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .err-title {
-    margin: 0 0 .3rem 0;
-    font-weight: 300;
+  margin: 0 0 0.3rem 0;
+  font-weight: 300;
 }
 
 .err-subtext {
-    color: darkslategrey;
-    margin: 1.1rem 0 1.2rem 0;
-    font-size: .9rem;
-    font-weight: 100;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategrey;
+  margin: 1.1rem 0 1.2rem 0;
+  font-size: 0.9rem;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .err-img {
-    width: 15rem;
-    height: 15rem;
+  width: 15rem;
+  height: 15rem;
 }
 
-.home-link{
+.home-link {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1920px) {
+  .home-link {
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
 }
 
-
-@media screen and (min-width: 1920px) {
-    .home-link {
-        font-weight: 100;
-        font-size: .9rem;
-    }
+@media screen and (max-width: 635px) {
+  .err-img {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
   }
+}
