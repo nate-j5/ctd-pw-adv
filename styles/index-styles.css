@@ -47,7 +47,7 @@
   gap: 2rem;
 }
 
-.hot-contain {
+.main-contain {
   background-color: hsla(256, 83%, 5%, 0.15);
   height: 18rem;
   width: 18rem;
@@ -58,7 +58,7 @@
   border-radius: 2rem;
 }
 
-.hot-contain:hover {
+.main-contain:hover {
   background-color: hsla(256, 83%, 5%, 0.15);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -76,7 +76,7 @@
   font-size: 12.5px;
 }
 
-.hot-contain:hover .card-subtext {
+.main-contain:hover .card-subtext {
   color: #008000;
   text-decoration: underline;
 }
@@ -125,7 +125,7 @@
     flex-direction: column;
   }
 
-  .hot-contain {
+  .main-contain {
     height: 14rem;
     width: 16rem;
   }
