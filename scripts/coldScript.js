@@ -63,5 +63,5 @@ function prevItem() {
   renderRecipes();
 }
 
-// Call the fetchcoldRecipes when the DOM is loaded
+// Fetch recipes once DOM is loaded
 document.addEventListener("DOMContentLoaded", fetchRecipes);
