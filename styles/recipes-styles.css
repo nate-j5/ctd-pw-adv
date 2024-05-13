@@ -121,7 +121,6 @@
 /* Buttons */
 
 #prev-btn {
-  background: none;
   border: none;
   height: 0.2rem;
   width: 0.2rem;
@@ -134,7 +133,6 @@
 }
 
 #next-btn {
-  background: none;
   border: none;
   height: 0.2rem;
   width: 0.2rem;

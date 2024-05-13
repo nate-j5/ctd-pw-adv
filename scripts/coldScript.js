@@ -12,6 +12,7 @@ function fetchRecipes() {
       renderArrows();
     })
     .catch((error) => {
+      alert('Sorry, we had an error fetching your recipes')
       console.error("Error fetching recipes:", error);
     });
 }
@@ -50,13 +51,13 @@ function renderArrows() {
   nextButton.addEventListener("click", nextItem);
 }
 
-// Cycle to the next user
+// Cycle to the next item
 function nextItem() {
   currentIndex = (currentIndex + 1) % coldRecipes.length;
   renderRecipes();
 }
 
-// Cycle to previous user
+// Cycle to previous item
 function prevItem() {
   currentIndex = (currentIndex - 1 + coldRecipes.length) % coldRecipes.length;
   renderRecipes();
