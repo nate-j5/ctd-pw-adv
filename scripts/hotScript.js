@@ -50,13 +50,13 @@ function renderArrows() {
   nextButton.addEventListener("click", nextItem);
 }
 
-// Cycle to the next user
+// Cycle to the next item
 function nextItem() {
   currentIndex = (currentIndex + 1) % hotRecipes.length;
   renderRecipes();
 }
 
-// Cycle to previous user
+// Cycle to previous item
 function prevItem() {
   currentIndex = (currentIndex - 1 + hotRecipes.length) % hotRecipes.length;
   renderRecipes();
