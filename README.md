@@ -18,7 +18,7 @@ API: https://sampleapis.com/api-list/coffee
    - `code .`
 1. If you're using VSCode and have [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed, click `Go Live` in your code editor to launch a dev server
 
-![alt text](image-3.png)
+![alt text](images/rm-images/image-3.png)
 
 ### Table of Contents
 
@@ -30,7 +30,7 @@ API: https://sampleapis.com/api-list/coffee
 
 Allows users to view recipes for hot and iced coffee.
 
-![alt text](image.png)
+![alt text](images/rm-images/image.png)
 
 ## Breakpoints
 
@@ -73,7 +73,7 @@ The recipe pages fetch recipe data and render the results to the page. Each reci
 
 Output
 
-![alt text](image-4.png)
+![alt text](images/rm-images/image-4.png)
 
 ## Breakpoints
 
